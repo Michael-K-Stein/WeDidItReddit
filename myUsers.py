@@ -120,9 +120,19 @@ class MyUsers:
                          user_agent='LordPhantom_Bot12',
                          username='LordPhantom_Bot12',
                          password=genericPassword)
+    LordPhantom_Bot13 = praw.Reddit(client_id='R31KJ_z05CVLog',
+                         client_secret='RP6CBl2nJub3YNmRGha5sn50vc4',
+                         user_agent='LordPhantom_Bot13',
+                         username='LordPhantom_Bot13',
+                         password=genericPassword)
+    LordPhantom_Bot14 = praw.Reddit(client_id='R31KJ_z05CVLog',
+                         client_secret='RP6CBl2nJub3YNmRGha5sn50vc4',
+                         user_agent='LordPhantom_Bot14',
+                         username='LordPhantom_Bot14',
+                         password=genericPassword)
     ### Definitions
-    All = [Opus27No2Movement1, Opus27No2Movement2, Opus27No2Movement3, GuyThatKilledHitler, LlamaHitler, DickSkinChin, BeSiyata_DiShmaya, Downvotes_Slut, LordPhantom_Bot, LordPhantom_Bot1, LordPhantom_Bot2, LordPhantom_Bot3, LordPhantom_Bot4, LordPhantom_Bot5, LordPhantom_Bot6, LordPhantom_Bot7, LordPhantom_Bot8, LordPhantom_Bot9, LordPhantom_Bot10, LordPhantom_Bot11, LordPhantom_Bot12]
+    All = [Opus27No2Movement1, Opus27No2Movement2, Opus27No2Movement3, GuyThatKilledHitler, LlamaHitler, DickSkinChin, BeSiyata_DiShmaya, Downvotes_Slut, LordPhantom_Bot, LordPhantom_Bot1, LordPhantom_Bot2, LordPhantom_Bot3, LordPhantom_Bot4, LordPhantom_Bot5, LordPhantom_Bot6, LordPhantom_Bot7, LordPhantom_Bot8, LordPhantom_Bot9, LordPhantom_Bot10, LordPhantom_Bot11, LordPhantom_Bot12, LordPhantom_Bot13, LordPhantom_Bot14]
     theCaptain = CaptainLordPhantom
-    Bots = [LordPhantom_Bot, LordPhantom_Bot1, LordPhantom_Bot2, LordPhantom_Bot3, LordPhantom_Bot4, LordPhantom_Bot5, LordPhantom_Bot6, LordPhantom_Bot7, LordPhantom_Bot8, LordPhantom_Bot9, LordPhantom_Bot10, LordPhantom_Bot11, LordPhantom_Bot12]
+    Bots = [LordPhantom_Bot, LordPhantom_Bot1, LordPhantom_Bot2, LordPhantom_Bot3, LordPhantom_Bot4, LordPhantom_Bot5, LordPhantom_Bot6, LordPhantom_Bot7, LordPhantom_Bot8, LordPhantom_Bot9, LordPhantom_Bot10, LordPhantom_Bot11, LordPhantom_Bot12, LordPhantom_Bot13, LordPhantom_Bot14]
     Opus27No2 = [Opus27No2Movement1, Opus27No2Movement2, Opus27No2Movement3]
     ###
