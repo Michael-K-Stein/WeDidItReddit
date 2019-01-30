@@ -1,6 +1,7 @@
 import praw
-
-genericPassword = ""
+f = open(r"C:\Users\stein\Desktop\genericPassword.txt", "r")
+genericPassword =f.read()
+f.close()
 
 class MyUsers:
 
