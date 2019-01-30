@@ -43,14 +43,14 @@ def isAscii(st):
 
 def upvoteComment(com):
     if com.author.name != "Guy2933":
-        print("Upvoting " + com.id, "By " + com.author)
+        print("Upvoting " + com.id, "By " + com.author.name)
         for bot in users.Bots:
             #print("Currently logged in as '", bot.user.me(), "'")
             bot.comment(com).upvote()
     else:
         repl(com, "די.")
 def downvoteComment(com):
-    print("Downvoting " + com.id, "By " + com.author)
+    print("Downvoting " + com.id, "By " + com.author.name)
     for bot in users.Bots:
         #print("Currently logged in as '", bot.user.me(), "' and going to downvote: ", com.body)
         bot.comment(com).downvote()
@@ -78,10 +78,14 @@ def repl(c, re):
 
 while True:
     for c in users.BeSiyata_DiShmaya.subreddit("ani_bm").stream.comments():
-        if (time.time() - c.created_utc) < 300:
+        f = open("RepliedToShit.txt", "r")
+        fR = f.read()
+        f.close()
+        if (time.time() - c.created_utc) < 300 and not c.id in fR:
             print(int(time.time() - c.created_utc),c.id, c.author, c.body)
             try:
-                if isAscii(c.body) and c.body != "?" and not "r/" in c.body and not "http" in c.body:
+                if isAscii(c.body) and c.body != "?" and not "r/" in c.body and not "u/" in c.body and not "http" in c.body:
+                    print("Found laaz")
                     downvoteComment(c)
                     trans = Translator()
                     repl(c, laaz + trans.translate(c.body, dest="he").text)
@@ -116,5 +120,7 @@ while True:
                 elif datetime.datetime.fromtimestamp(int(c.author.created_utc)).strftime('%d/%m') == time.strftime('%d/%m'):
                     upvoteComment(c)
                     repl(c,happy_cake_day)
+                else:
+                    print("Didn't do anything with comment.")
             except:
                 time.sleep(5)

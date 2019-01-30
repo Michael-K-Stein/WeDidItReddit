@@ -15,8 +15,11 @@ while True:
     if post != lastPost:
         print(post, post.title)
         lastPost = post
+        frr = open("RepliedToShit.txt","r")
+        fr = frr.read()
+        frr.close()
         f = open("RepliedToShit.txt","a+")
-        if not post.id in f.read():
+        if not post.id in fr:
             post.reply(bsd)
             f.write(post.id + ",\n")
         f.close()

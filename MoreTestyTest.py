@@ -5,12 +5,21 @@ import praw
 import myUsers
 users = myUsers.MyUsers("My Users")
 
-f = open("RepliedToShit.txt", "a+")
-
-f.write("HHHH")
+f = open("RepliedToShit.txt", "r")
+fR = f.read()
 f.close()
+print(fR)
+
 # Grab the user account
-#bot = users.LordPhantom_Bot
+bot = users.LordPhantom_Bot
+def downvoteComment(com):
+    print("Downvoting " + com.id, "By " + com.author.name)
+    for bot in users.Bots:
+        print("Currently logged in as '", bot.user.me(), "' and going to downvote: ", com.body)
+        bot.comment(com).downvote()
+
+#downvoteComment(bot.comment("efe0mgv"))
+
 #print(bot.redditor("CaptainLordPhantom").created_utc)
 # Grab their created, and make it readable
 #cakeday = datetime.datetime.fromtimestamp(int(bot.redditor("CaptainLordPhantom").created_utc)).strftime('%d/%m')
