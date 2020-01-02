@@ -1,0 +1,10 @@
+C:\Users\stein\source\repos\Reddit\Reddit\bin\Debug\Reddit.exe.config
+C:\Users\stein\source\repos\Reddit\Reddit\bin\Debug\Reddit.exe
+C:\Users\stein\source\repos\Reddit\Reddit\bin\Debug\Reddit.pdb
+C:\Users\stein\source\repos\Reddit\Reddit\obj\Debug\Reddit.csprojAssemblyReference.cache
+C:\Users\stein\source\repos\Reddit\Reddit\obj\Debug\Reddit.Form1.resources
+C:\Users\stein\source\repos\Reddit\Reddit\obj\Debug\Reddit.Properties.Resources.resources
+C:\Users\stein\source\repos\Reddit\Reddit\obj\Debug\Reddit.csproj.GenerateResource.cache
+C:\Users\stein\source\repos\Reddit\Reddit\obj\Debug\Reddit.csproj.CoreCompileInputs.cache
+C:\Users\stein\source\repos\Reddit\Reddit\obj\Debug\Reddit.exe
+C:\Users\stein\source\repos\Reddit\Reddit\obj\Debug\Reddit.pdb
