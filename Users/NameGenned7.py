@@ -1,0 +1,112 @@
+import praw
+f = open(r"C:\Users\stein\Desktop\genericPassword.txt", "r")
+genericPassword = f.read()
+f.close()
+
+class NameGenned7 :
+    __client_id = "qvBzgLBf4rnPwg"
+    __client_secret = "Az3_S8Txt3fI22dBqntEW5bsoxw"
+    def __init__(self, name):
+        self.name = name
+                
+                
+    _aro1diger = praw.Reddit(client_id=__client_id,
+                             client_secret =__client_secret,
+                             user_agent = 'aro1diger',
+                             username = 'aro1diger',
+                             password = genericPassword)
+    _0Ludecke = praw.Reddit(client_id=__client_id,
+                             client_secret = __client_secret,
+                             user_agent = '0Ludecke',
+                             username = '0Ludecke',
+                             password = genericPassword)
+    _Kron1s_Selai = praw.Reddit(client_id=__client_id,
+                             client_secret = __client_secret,
+                             user_agent = 'Kron1s_Selai',
+                             username = 'Kron1s_Selai',
+                             password = genericPassword)
+    _MarkA388 = praw.Reddit(client_id=__client_id,
+                             client_secret = __client_secret,
+                             user_agent = 'MarkA388',
+                             username = 'MarkA388',
+                             password = genericPassword)
+    _Just_Wunderi9g = praw.Reddit(client_id=__client_id,
+                             client_secret = __client_secret,
+                             user_agent = 'Just_Wunderi9g',
+                             username = 'Just_Wunderi9g',
+                             password = genericPassword)
+    _owl2reytea = praw.Reddit(client_id=__client_id,
+                             client_secret = __client_secret,
+                             user_agent = 'owl2reytea',
+                             username = 'owl2reytea',
+                             password = genericPassword)
+    _gunstarhe8oesblue = praw.Reddit(client_id=__client_id,
+                             client_secret = __client_secret,
+                             user_agent = 'gunstarhe8oesblue',
+                             username = 'gunstarhe8oesblue',
+                             password = genericPassword)
+    _faivulne9able = praw.Reddit(client_id=__client_id,
+                             client_secret = __client_secret,
+                             user_agent = 'faivulne9able',
+                             username = 'faivulne9able',
+                             password = genericPassword)
+    _LifeAt101Kts = praw.Reddit(client_id=__client_id,
+                             client_secret = __client_secret,
+                             user_agent = 'LifeAt101Kts',
+                             username = 'LifeAt101Kts',
+                             password = genericPassword)
+    _diggydemo8 = praw.Reddit(client_id=__client_id,
+                             client_secret = __client_secret,
+                             user_agent = 'diggydemo8',
+                             username = 'diggydemo8',
+                             password = genericPassword)
+    _lloyd3119 = praw.Reddit(client_id=__client_id,
+                             client_secret = __client_secret,
+                             user_agent = 'lloyd3119',
+                             username = 'lloyd3119',
+                             password = genericPassword)
+    _JasonMB3 = praw.Reddit(client_id=__client_id,
+                             client_secret = __client_secret,
+                             user_agent = 'JasonMB3',
+                             username = 'JasonMB3',
+                             password = genericPassword)
+    _youngadvertis5ment = praw.Reddit(client_id=__client_id,
+                             client_secret = __client_secret,
+                             user_agent = 'youngadvertis5ment',
+                             username = 'youngadvertis5ment',
+                             password = genericPassword)
+    _o_ke6f = praw.Reddit(client_id=__client_id,
+                             client_secret = __client_secret,
+                             user_agent = 'o-ke6f',
+                             username = 'o-ke6f',
+                             password = genericPassword)
+    _8sopple = praw.Reddit(client_id=__client_id,
+                             client_secret = __client_secret,
+                             user_agent = '8sopple',
+                             username = '8sopple',
+                             password = genericPassword)
+    ___4_am_GROOT__ = praw.Reddit(client_id=__client_id,
+                             client_secret = __client_secret,
+                             user_agent = '--4_am_GROOT--',
+                             username = '--4_am_GROOT--',
+                             password = genericPassword)
+    _mo5ythor = praw.Reddit(client_id=__client_id,
+                             client_secret = __client_secret,
+                             user_agent = 'mo5ythor',
+                             username = 'mo5ythor',
+                             password = genericPassword)
+    _alexa210101hello = praw.Reddit(client_id=__client_id,
+                             client_secret = __client_secret,
+                             user_agent = 'alexa210101hello',
+                             username = 'alexa210101hello',
+                             password = genericPassword)
+    _OnAirWithJ0 = praw.Reddit(client_id=__client_id,
+                             client_secret = __client_secret,
+                             user_agent = 'OnAirWithJ0',
+                             username = 'OnAirWithJ0',
+                             password = genericPassword)
+    ### Definitions
+    All = [_aro1diger,_0Ludecke,_Kron1s_Selai,_MarkA388,_Just_Wunderi9g,_owl2reytea,_gunstarhe8oesblue,_faivulne9able,_LifeAt101Kts,_diggydemo8,_lloyd3119,_JasonMB3,_youngadvertis5ment,_o_ke6f,_8sopple,___4_am_GROOT__,_mo5ythor,_alexa210101hello,_OnAirWithJ0]
+    ###
+
+print("NameGenned7: \t\t", NameGenned7.All.__len__())

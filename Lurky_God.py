@@ -55,10 +55,10 @@ def downvoteComment(com):
         #print("Currently logged in as '", bot.user.me(), "' and going to downvote: ", com.body)
         bot.comment(com).downvote()
 
-import praw
+
 import datetime
-from praw.models import Comment
-import myUsers
+from Users import myUsers
+
 users = myUsers.MyUsers("My Users")
 import time
 from googletrans import Translator
@@ -81,12 +81,12 @@ while True:
         f = open("RepliedToShit.txt", "r")
         fR = f.read()
         f.close()
-        if (time.time() - c.created_utc) < 300 and not c.id in fR:
+        if (time.time() - c.created_utc) < 300 and not c.id in fR and not c.author.name == "BeSiyata_DiShmaya":
             print(int(time.time() - c.created_utc),c.id, c.author, c.body)
             try:
                 if isAscii(c.body) and c.body != "?" and not "r/" in c.body and not "u/" in c.body and not "http" in c.body:
                     print("Found laaz")
-                    downvoteComment(c)
+                    #downvoteComment(c)
                     trans = Translator()
                     repl(c, laaz + trans.translate(c.body, dest="he").text)
                 elif cus in c.body or zona in c.body or zain in c.body or homo in c.body or koksinel in c.body or ziun in c.body:

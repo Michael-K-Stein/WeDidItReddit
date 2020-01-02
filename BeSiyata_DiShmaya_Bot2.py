@@ -1,4 +1,4 @@
-bsd = "ב ה".replace(" ", chr(34))
+bsd = "בס ד".replace(" ", chr(34))
 
 import time
 from Users import myUsers
@@ -7,7 +7,7 @@ users = myUsers.MyUsers("My Users")
 
 #basad = users.BeSiyata_DiShmaya
 from Users.Run2.NameGennedOld import NameGennedOld
-basad = NameGennedOld.Downvotes_Slut
+basad = NameGennedOld._0ath_ologic
 
 #anibm = basad.subreddit("ani_bm")
 anibm = basad.subreddit("ich_iel")

@@ -24,9 +24,8 @@ upvotes = "הצבעות מעלה"
 upvotes2 = "הצבעות עילי"
 from_father = "מאבא שבשמים"
 
-import praw
 from praw.models import Comment
-import myUsers
+from Users import myUsers
 import time
 
 users = myUsers.MyUsers("My Users")
